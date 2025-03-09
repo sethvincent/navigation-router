@@ -1,6 +1,6 @@
 {
     "name": "navigation-router",
-    "version": "0.0.0",
+    "version": "0.0.1",
     "description": "Simple router that uses the Navigation API",
     "type": "module",
     "main": "index.js",
