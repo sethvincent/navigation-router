@@ -1,0 +1,31 @@
+{
+    "name": "navigation-router",
+    "version": "0.0.0",
+    "description": "Simple router that uses the Navigation API",
+    "type": "module",
+    "main": "index.js",
+    "types": "types/index.d.ts",
+    "scripts": {
+        "fmt": "dxv fmt -c .config/dprint.jsonc",
+        "lint": "dxv lint -c .config/eslint.config.js",
+        "deps": "dxv deps -c .config/.depcheckrc",
+        "type": "dxv type -c .config/tsconfig.json"
+    },
+    "devDependencies": {
+        "@dxv/cli": "^2.0.4"
+    },
+    "keywords": [
+        "router",
+        "navigation"
+    ],
+    "homepage": "https://github.com/sethvincent/navigation-router#readme",
+    "bugs": {
+        "url": "https://github.com/sethvincent/navigation-router/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sethvincent/navigation-router.git"
+    },
+    "license": "ISC",
+    "author": "sethvincent",
+}
